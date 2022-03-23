@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 50%;
+  padding: 8px;
+  margin: 16px auto;
+}
+
+h1 {
+  margin: 0;
+  font-weight: normal;
+  border-bottom: 2px solid #eee;
+}
+
+input[type="checkbox"] {
+  margin-right: 4px;
+}
+
+ul {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 8px;  
+}
+
+input[type="text"] {
+  padding: 2px;
+}
+
+input[type="submit"] {
+  margin-left: 4px;
+}
+
+h1 > span {
+  font-size: 12px;
+  font-weight: normal;
+  color: gray;
+  margin-left: 5px;
+}
+
+h1 > button {
+  float: right;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray
+}
+
+.cmd {
+  cursor: pointer;
+  user-select: none;
+  color: blue;
+  margin-left: 4px;
+}
